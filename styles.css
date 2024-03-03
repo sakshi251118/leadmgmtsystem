@@ -1,0 +1,55 @@
+/* Styles for Lead Management System */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="checkbox"], button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Optional: Style checkboxes */
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+/* Optional: Style forms for better alignment */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+form input[type="text"], form input[type="checkbox"] {
+    flex: 1 1 200px;
+}
+
+form button {
+    flex: 0 0 auto;
+}

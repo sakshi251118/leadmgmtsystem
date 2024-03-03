@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lead Management System</title>
+</head>
+<body>
+    <h1>Lead Management System</h1>
+    
+    <!-- Form to add team -->
+    <form id="addTeamForm">
+        <input type="text" id="teamName" placeholder="Team name">
+        <button type="button" onclick="addTeam()">Add Team</button>
+    </form>
+
+    <!-- Form to add user -->
+    <form id="addUserForm">
+        <input type="text" id="userName" placeholder="User name">
+        <input type="text" id="userTeam" placeholder="Team name">
+        <input type="checkbox" id="isTeamLead">Is Team Lead
+        <button type="button" onclick="addUser()">Add User</button>
+    </form>
+
+    <!-- Other forms and UI elements for different functionalities -->
+
+    <script src="frontend.js"></script>
+</body>
+</html>
